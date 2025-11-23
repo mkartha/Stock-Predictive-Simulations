@@ -21,6 +21,18 @@ class MonteCarlo:
         i+=1
         self.returns=data_returns;
     return self.returns
+
+  #Calculate stock volatility(Standard Deviation)
+  def calc_volatility(self):
+    self.volatility=np.std(self.returns)
+    return self.volatility
+
+  #Calculate drift(Mean)
+  def calc_drift(self):
+    self.drift=np.mean(self.returns)
+    return self.drift
+
+  
   
       
     
