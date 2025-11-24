@@ -32,7 +32,10 @@ class MonteCarlo:
     self.drift=np.mean(self.returns)
     return self.drift
 
-  
+  def simulate_one_month_ahead(self):
+    last_m=self.returns[-1]
+    
+    
   
       
     
