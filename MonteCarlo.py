@@ -32,9 +32,21 @@ class MonteCarlo:
     self.drift=np.mean(self.returns)
     return self.drift
 
-  def simulate_one_month_ahead(self):
+  #Monte carlo simulation using GBM
+  def simulate_month_ahead(self, months_ahead, n_sims):
+    T=months_ahead/12.0
     last_m=self.returns[-1]
-    
+    m_carlo=[]
+    for i in range(n_sims):
+      Z=np.random.normal()
+      future_log_return = ((self.drift - 0.5 * self.volatility**2) * T + self.volatility * np.sqrt(T) * Z)
+      m_carlo.append(tr)
+    expected_return=np.mean(m_carlo)
+    closing_price=self.stock_data["Adj Close"].iloc[-1]
+    p_value=closing_price+(closing_price*np.exp(expected_return))
+    return p_value
+      
+  
     
   
       
