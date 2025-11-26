@@ -1,5 +1,7 @@
 #Monte Carlo implementation for Stock Predictive Simulations
-#Best Utilized for Bear Markets
+#Best Utilized for Bull Markets
+#Simulates Stock Data with Random Shocks and Inflation Control
+#Using Geometric Brownian Motion
 #Completed on November 25 2025
 #© MK 2025, All Rights Reserved
 
