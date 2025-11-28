@@ -29,3 +29,5 @@ class RandomForest:
             self.calculate_returns()
         bsarr=random.sample(self.returns,60)
 
+    #Initialize a featur
+
