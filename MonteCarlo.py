@@ -1,5 +1,6 @@
 #Monte Carlo implementation for Stock Predictive Simulations
-#Best Utilized for Bull Markets
+#Best Utilized for modeling high returns Bull Markets
+#IMPORTANT: THIS IS NOT FOR ACTUAL PRECISE PREDICTION
 #Simulates Stock Data with Random Shocks and Inflation Control
 #Using Geometric Brownian Motion
 #Completed on November 25 2025
