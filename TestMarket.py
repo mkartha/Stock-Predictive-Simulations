@@ -1,5 +1,7 @@
 class TestMarket:
-  def askQ(self):
+
+  @staticmethod
+  def askQ():
     tScore=0
     print("Answer these questions as honestly as possible to capture the most accurate representations. 1 being each situation is not very prevalent(least importance), and 5 being the situation being very prevalent(most importance)")
     sTech=int(input("If the corporation you are trying to analyze is tech, rate the current growth of the tech market"))
